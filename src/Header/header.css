@@ -1,0 +1,29 @@
+.first-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-contact{
+    display: flex;
+    gap: 40px;
+}
+
+.contact-btn{
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: transparent;
+}
+.mobile-view{
+    display: none ;
+}
+@media screen and (max-width: 767px ) {
+    .destktop-navbar-only{
+        display: none;
+    }
+    .mobile-view{
+        display: block ;
+        padding: 10px;
+    }
+}
+

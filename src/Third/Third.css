@@ -1,0 +1,96 @@
+.third-title{
+    display: grid;
+    place-items: center;
+}
+
+.third-title span{
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+
+.third-title p{
+    color: var(--gray-color);
+}
+
+.mybox{
+    display: flex;
+    border: 1px solid #7A7A7A;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mybox img{
+    width: 10%;
+}
+
+@media screen and (max-width: 991px) {
+    .mybox{
+        margin-top: 20px;
+    }
+    .slides-for-mobile{
+        padding-top: 3rem;
+    }
+}
+
+.mybox span{
+    color: #336699;
+    font-weight: bold;
+}
+
+.blue-frame{
+    background: url("../assets/blueframe.png") no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.mil-cust span{
+    color: #003366;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.mil-cust button{
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    background: transparent;
+}
+
+.mil-cust button:hover{
+    background: white ;
+    border: 2px solid #FFCC66;
+}
+
+
+@media screen and (min-width: 991px) {
+    .card2{
+        margin-left: 50px;
+    }
+    
+    .card3{
+        margin-left: 70px;
+    }
+    
+    .n-simple{
+        font-size: 54px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .n-simple{
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .n-simple{
+        font-size: 34px;
+    }
+}

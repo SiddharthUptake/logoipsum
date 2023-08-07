@@ -1,0 +1,136 @@
+.sec-4{
+    height: auto;
+}
+
+.sec-5{
+    background: url("../assets/Frame\ 163031.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    bottom: 30%;
+}
+
+
+
+
+
+/* @media screen and (max-width: 1750px) {
+    .sec-4{
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .sec-4{
+        height: 80vh;
+    }
+} */
+
+/* @media screen and (max-width: 1500px) {
+    .sec-4{
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .sec-4{
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .sec-4{
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .sec-4{
+        height: 60vh;
+    }
+} */
+
+.mobiles-1{
+    width: 90%;
+}
+
+
+
+.mobiles-2{
+    width: 110%;
+}
+
+.mobiles-main{
+    width: 70%;
+}
+
+.mm2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.mm4{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .mobiles-1 , .mobiles-2 , .mobiles-main{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .mm2{
+        justify-content: center;
+    }
+    .mm4{
+        justify-content: center;
+    }
+    .sec-4{
+        height: auto;
+    }
+    .sec-5{
+        margin-top: 2rem;
+    }
+}
+.sec-4{
+    z-index: -1;
+}
+
+.downloadapp{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.get-started{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .get-started{
+        font-size: 30px;
+    }
+}
+
+.apple-side{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    color: white;
+}
+
+.app-store{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}

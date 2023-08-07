@@ -1,0 +1,91 @@
+.first_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.left-first-page span{
+    font-size: 54px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 767px) {
+    .left-first-page span{
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .left-first-page span{
+        font-size: 36px;
+    }
+}
+
+
+.left-first-page p{
+    font-size: 22px;
+}
+
+.mobile-1{
+    background: url("../assets/page1.png") no-repeat;
+    display: grid;
+    place-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.mobile{
+    width: 50%;
+    /* max-width: 500px; */
+}
+
+@media screen and (max-width: 991px) {
+    .home-apples{
+        display: none !important;
+    }
+}
+
+.impression{
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.counter{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+
+.counter-names{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.apples{
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.home-apples{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.never{
+    background-image: linear-gradient(to right, #FBB6A1 , #FFFFFF);
+}
+
+.simpler{
+    background-image: linear-gradient(to right, #fccc64 , #FFFFFF);
+}
