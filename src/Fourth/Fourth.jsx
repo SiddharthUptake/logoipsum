@@ -60,7 +60,7 @@ const Fourth = () => {
                 </div>
                 <div className="col-lg-9 col-9">
                   <span>Download on the</span>
-                  <h6>Play Store</h6>
+                  <h6>Goggle Play</h6>
                 </div>
               </div>
             </div>
