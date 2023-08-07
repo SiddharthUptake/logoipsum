@@ -67,8 +67,8 @@ const Footer = () => {
       <div className="copyright pt-4 pb-3">
         <div className="container-fluid px-5">
         <div className="row">
-            <div className="col-lg-6">
-            <span className="text-center">© 2023. All Rights Reserved</span>
+            <div className="col-lg-6 rights">
+            <span className="text-center ">© 2023. All Rights Reserved</span>
             </div>
             <div className="col-lg-6 tpl">
             <span>Terms & Conditions</span>

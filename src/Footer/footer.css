@@ -69,3 +69,10 @@ input::placeholder {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .rights{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
