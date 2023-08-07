@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <div className="container-fluid px-5 pb-3">
-        <div className="row mt-5 pt-5">
+        <div className="row mt-3 mb-2 pb-2 pt-3">
           <div className="col-lg-3 d-flex flex-column">
             <img src={logo} alt="logo" className="logo" />
             <p className="pt-4 footer-content">

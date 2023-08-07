@@ -20,7 +20,7 @@ const Second = () => {
           </div>
           <div className="col-lg-7 d-flex justify-content-center align-items-center">
             <div className="page-2-content" data-aos="fade-up">
-              <span>All Locations are just few taps away</span>
+              <span>All </span> <span className="loc-gradient">Locations </span> <span>are just few taps away</span>
               <div className="mt-5">
                 <Accordion>
                   <AccordionSummary

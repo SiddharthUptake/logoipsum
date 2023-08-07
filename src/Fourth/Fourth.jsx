@@ -13,7 +13,7 @@ const Fourth = () => {
       <div className="container-fluid px-5">
         <div className="third-title mt-5">
           <span className="text-center">
-            Lorem Ipsum text never been simpler
+            Lorem Ipsum text never <span className="be-last-simpler"> been simpler </span>
           </span>
           <p className="text-center pt-3">
             There are many variations of passages of Lorem Ipsum available, but

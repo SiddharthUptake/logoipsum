@@ -44,6 +44,10 @@
     }
 }
 
+.loc-gradient{
+    background-image: linear-gradient(to right, #61a5e8 , #FFFFFF);
+}
+
 /* .accordian-button{
     display: none !important;
 }

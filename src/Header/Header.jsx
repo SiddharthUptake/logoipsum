@@ -21,7 +21,7 @@ const Header = () => (
       </div>
       </div>
     </section>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-light">
       <div className="container-fluid px-5">
         <a className="navbar-brand" href="#">
           <img src={biglogo} alt="logo" className="pt-3 pb-3" />

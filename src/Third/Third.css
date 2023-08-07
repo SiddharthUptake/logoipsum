@@ -94,3 +94,8 @@
         font-size: 34px;
     }
 }
+
+.be-simple{
+    background-image: linear-gradient(to right, #A8A1FB , #FFFFFF);
+    font-weight: bold !important;
+}

@@ -53,8 +53,8 @@ const Third = () => {
     <section className="sec-3" >
       <div className="container-fluid px-5" data-aos="fade-up">
         <div className="third-title">
-          <span className="text-center n-simple">
-            Lorem Ipsum text never been simpler
+          <span className="n-simple">
+            Lorem Ipsum text never  <span className="be-simple">been simpler</span> 
           </span>
           <p className="text-center pt-3">
             There are many variations of passages of Lorem Ipsum available, but

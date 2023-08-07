@@ -134,3 +134,8 @@
     padding: 10px;
     border-radius: 10px;
 }
+
+.be-last-simpler{
+    font-weight: bold !important;
+    background-image: linear-gradient(to right, #0ACBA754 , #FFFFFF);
+}

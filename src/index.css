@@ -3,3 +3,7 @@
   --primary-color : #003366;
   --gray-color : #7A7A7A;
 }
+
+a:hover{
+  color: #336699 !important;
+}
