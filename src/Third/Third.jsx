@@ -51,7 +51,7 @@ const Third = () => {
   };
   return (
     <section className="sec-3" >
-      <div className="container-fluid px-5">
+      <div className="container-fluid px-5" data-aos="fade-up">
         <div className="third-title">
           <span className="text-center n-simple">
             Lorem Ipsum text never been simpler
@@ -107,8 +107,8 @@ const Third = () => {
       </div>
       <div className="blue-frame mt-5 mb-5 p-5 ">
         <div className="container-fluid">
-          <div className="row">
-            <div className="col-lg-6 mil-cust">
+          <div className="row" >
+            <div className="col-lg-6 mil-cust" data-aos="fade-up">
               <span>Trusted By 
                 Million of Customers
               </span>
@@ -117,7 +117,7 @@ const Third = () => {
                 <button onClick={() => slides.current.slickNext()}><ArrowRight/></button>
               </div>
             </div>
-            <div className="col-lg-6 slides-for-mobile">
+            <div className="col-lg-6 slides-for-mobile" data-aos="fade-up">
               <Slider {...settings} className="main-slider" ref={slides}>
                 <div class="card card1">
                   <div class="card-body">

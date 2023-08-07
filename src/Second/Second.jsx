@@ -10,16 +10,16 @@ import { Plus, PlusCircle, PlusCircleIcon } from "lucide-react";
 import checkcircleimg from "../assets/check-circle 1.png";
 const Second = () => {
   return (
-    <section className="sec-2">
+    <section className="sec-2" id="aboutus">
       <div className="container-fluid px-5">
         <div className="row mt-5 mb-5">
           <div className="col-lg-5">
-            <div className="page2_pattern">
+            <div className="page2_pattern" data-aos="fade-up">
               <img src={page2} alt="" />
             </div>
           </div>
           <div className="col-lg-7 d-flex justify-content-center align-items-center">
-            <div className="page-2-content">
+            <div className="page-2-content" data-aos="fade-up">
               <span>All Locations are just few taps away</span>
               <div className="mt-5">
                 <Accordion>

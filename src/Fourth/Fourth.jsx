@@ -9,7 +9,7 @@ import apple from "../assets/applay.png";
 import android from "../assets/gplay.png";
 const Fourth = () => {
   return (
-    <section className="sec-4">
+    <section className="sec-4" id="features">
       <div className="container-fluid px-5">
         <div className="third-title mt-5">
           <span className="text-center">
@@ -23,24 +23,24 @@ const Fourth = () => {
         </div>
         <div className="row mt-5">
           <div className="col-lg-2 d-flex justify-content-center align-items-center">
-            <img className="mobiles-1" src={m1} alt="" />
+            <img className="mobiles-1" src={m1} alt="" data-aos="fade-right"/>
           </div>
           <div className="col-lg-2  mm2 ">
-            <img className="mobiles-2" src={m2} alt="" />
+            <img className="mobiles-2" src={m2} alt="" data-aos="fade-right"/>
           </div>
           <div className="col-lg-4  d-flex justify-content-center align-items-center">
-            <img className="mobiles-main" src={m3} alt="" />
+            <img className="mobiles-main" src={m3} alt="" data-aos="fade"/>
           </div>
           <div className="col-lg-2 mm4">
-            <img className="mobiles-2" src={m4} alt="" />
+            <img className="mobiles-2" src={m4} alt="" data-aos="fade-left"/>
           </div>
           <div className="col-lg-2  d-flex justify-content-center align-items-center">
-            <img className="mobiles-1" src={m5} alt="" />
+            <img className="mobiles-1" src={m5} alt="" data-aos="fade-left"/>
           </div>
         </div>
       </div>
       <div className="sec-5 mt-5 d-flex justify-content-center align-items-center">
-        <div className="downloadapp">
+        <div className="downloadapp" data-aos="fade-up">
           <span className="get-started text-center">Download This App To Get Started</span>
           <div>
             <div className="apple-side mt-4">
